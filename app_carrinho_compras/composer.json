@@ -1,0 +1,16 @@
+{
+    "name": "ana/app_carrinho_compras",
+    "type": "project",
+    "authors": [
+        {
+            "name": "ana",
+            "email": "anaestevam9@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "src\\" : "src/"
+        }
+    }
+}
