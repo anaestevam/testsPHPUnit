@@ -1,0 +1,15 @@
+{
+    "name": "ana/app_etl",
+    "autoload": {
+        "psr-4": {
+            "src\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ana Estevam",
+            "email": "anaestevam9@gmail.com"
+        }
+    ],
+    "require": {}
+}
