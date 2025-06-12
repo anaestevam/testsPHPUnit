@@ -9,8 +9,11 @@
     ],
     "autoload": {
         "psr-4": {
-            "src\\" : "src/"
+            "src\\": "src/"
         }
+    },
+    "require": {
+        "symfony/yaml": "*"
     },
     "require-dev": {
         "phpunit/phpunit": "10.0"
