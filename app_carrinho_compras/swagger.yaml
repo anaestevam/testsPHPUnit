@@ -1,0 +1,35 @@
+openapi: 3.0.0
+info:
+  title: API de Teste
+  version: "1.0"
+paths:
+  /produtos:
+    get:
+      summary: Lista produtos
+      responses:
+        '200':
+          description: OK
+    post:
+      summary: Cadastrar um novo produto
+      description: Adiciona um produto ao sistema
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                nome:
+                  type: string
+                preco:
+                  type: number
+                estoque:
+                  type: integer
+              required:
+                - nome
+                - preco
+      responses:
+        '201':
+          description: Produto criado com sucesso
+        '400':
+          description: Dados inválidos
